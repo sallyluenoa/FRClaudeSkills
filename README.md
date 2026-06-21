@@ -16,11 +16,18 @@ chmod u+x setup.sh
 - Creates a symlink `~/.claude/skills -> <this repo>/skills`
 - Prompts for confirmation if `~/.claude/skills` already exists
 
+## Available skills
+
+| Skill | Description |
+|---|---|
+| `/gh-view` | View a GitHub issue or pull request in the current repository |
+
 ## Adding skills
 
-Add a `.md` file under `skills/` and it becomes available in Claude Code as `/skill-name`.
+Add a directory under `skills/` containing a `SKILL.md` file and it becomes available in Claude Code as `/skill-name`.
 
 ```
 skills/
-  my-skill.md   # → available as /my-skill
+  my-skill/
+    SKILL.md   # → available as /my-skill
 ```

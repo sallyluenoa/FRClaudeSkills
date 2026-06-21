@@ -16,11 +16,18 @@ chmod u+x setup.sh
 - `~/.claude/skills -> <このリポジトリ>/skills` のシンボリックリンクを作成します
 - `~/.claude/skills` が既に存在する場合は上書きするか確認します
 
+## 利用可能な skills
+
+| Skill | 説明 |
+|---|---|
+| `/gh-view` | 現在のリポジトリの GitHub issue または pull request を表示する |
+
 ## skills の追加方法
 
-`skills/` 以下に `.md` ファイルを追加するだけで Claude Code から `/skill-name` として呼び出せます。
+`skills/` 以下にディレクトリを作成し `SKILL.md` を配置すると、Claude Code から `/skill-name` として呼び出せます。
 
 ```
 skills/
-  my-skill.md   # → /my-skill として使用可能
+  my-skill/
+    SKILL.md   # → /my-skill として使用可能
 ```
