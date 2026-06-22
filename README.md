@@ -21,6 +21,8 @@ chmod u+x setup.sh
 | Skill | Description |
 |---|---|
 | `/gh-view` | View a GitHub issue or pull request in the current repository |
+| `/gh-create-pr` | Create a pull request for the current branch on GitHub |
+| `/gh-create-issue` | Create a new issue in the current repository on GitHub |
 
 ## Adding skills
 
