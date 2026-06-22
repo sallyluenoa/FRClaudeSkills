@@ -21,6 +21,8 @@ chmod u+x setup.sh
 | Skill | 説明 |
 |---|---|
 | `/gh-view` | 現在のリポジトリの GitHub issue または pull request を表示する |
+| `/gh-create-pr` | 現在のブランチの pull request を GitHub 上に作成する |
+| `/gh-create-issue` | 現在のリポジトリに新しい issue を作成する |
 
 ## skills の追加方法
 

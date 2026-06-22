@@ -37,8 +37,11 @@ CLAUDE.md           # this file
    ## Steps
    ...
    ```
-2. Add a row to the Available skills table in `README.md`.
-3. Commit both files together.
+2. Add a row to the Available skills table in **all three** of the following files:
+   - `README.md` — English description
+   - `README.ja.md` — Japanese description
+   - `CLAUDE.md` — this file (Available skills section below)
+3. Commit all changed files together.
 
 No setup step is needed — the symlink already points here.
 
@@ -49,6 +52,8 @@ No setup step is needed — the symlink already points here.
 | `/gh-view` | View a GitHub issue or pull request in the current repository |
 | `/gh-create-pr` | Create a pull request for the current branch on GitHub |
 | `/gh-create-issue` | Create a new issue in the current repository on GitHub |
+
+Keep this table in sync with `README.md` and `README.ja.md` whenever a skill is added or removed.
 
 ## Conventions observed in this repo
 
